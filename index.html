@@ -167,6 +167,25 @@
             border-left: 3px solid var(--accent-primary);
         }
 
+        #credit-badge {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            padding: 8px 14px;
+            background: var(--bg-elevated);
+            backdrop-filter: var(--glass-blur);
+            -webkit-backdrop-filter: var(--glass-blur);
+            border: var(--glass-border);
+            border-radius: 10px;
+            color: var(--text-dim);
+            font-family: 'Fira Code', monospace;
+            font-size: 0.7rem;
+            z-index: 100;
+            pointer-events: none;
+            border-right: 3px solid var(--accent-secondary);
+            letter-spacing: 0.5px;
+        }
+
         #info-badge {
             position: fixed;
             top: 20px;
@@ -233,6 +252,7 @@
 
     <canvas id="bg-canvas"></canvas>
     <div id="fps-monitor">FPS: --</div>
+    <div id="credit-badge">Made by Kanishq Gandharv</div>
     <div id="info-badge">
         <h1>EARTH</h1>
         <p>Real-time 3D Visualization</p>
