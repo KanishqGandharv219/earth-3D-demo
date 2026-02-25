@@ -1,6 +1,6 @@
 # Majestic Earth 3D — Spectacular Edition
 
-[View Live Demo](https://KanishqGandharv219.github.io/earth-3D-demo/)
+### 🌐 [Live Interactive Demo](https://KanishqGandharv219.github.io/earth-3D-demo/)
 
 A stunning, photorealistic 3D Earth visualization built with Three.js. This project features high-fidelity textures, custom GLSL shaders, and realistic planetary physics.
 
